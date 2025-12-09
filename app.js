@@ -159,7 +159,7 @@ function handleFormSubmit(e) {
         }
     } else {
         // Add new product
-        const newId = products.length > 0 ? Math.max(...products.map(p => p.id)) + 1 : 1;
+        const newId = products.length > 0 ? products.reduce((max, p) => Math.max(max, p.id), 0) + 1 : 1;
         products.push({
             id: newId,
             ...formData

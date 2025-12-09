@@ -75,7 +75,7 @@ header h1 {
 .search-box input:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
 }
 
 .btn {
@@ -388,7 +388,7 @@ header h1 {
 .form-group input:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
 }
 
 .form-actions {
